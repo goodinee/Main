@@ -1,0 +1,34 @@
+html,body,header, .view{
+	height: 100%;
+}
+.view{
+	background: url(../img/mac0.jpg)
+	 no-repeat center center fixed; background-size: cover;"
+}
+/*если ширина будет менее 991px, высота бэкграунда(.full-page-intro) и всей первой секции(html,body,header, .view) увеличится до указанных в height значений*/
+@media (max-width: 991px) {
+	.full-page-intro,html,body,header, .view{
+		height: 1000px;
+	}
+}
+/*цвет навбара*/
+.navbar{
+	background-color: rgba(0,0,0,0.9);/* 0.9 - прозрачность навбара*/
+}
+/*цвет навбара при скроллинге*/
+.top-nav-collapse, .navbar-toggler{
+	background-color: #666666;
+}
+/*если ширина экрана менее 991px, цвет навбара поменяется на указанный*/
+@media only screen and (max-width: 991px) {
+	.navbar,{
+		background-color: #666666;
+	}
+}
+/*цвет футера*/
+.page-footer{
+	background-color:#666666;
+}
+/*img {
+	max-width: 250px;
+}

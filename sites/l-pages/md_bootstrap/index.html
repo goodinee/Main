@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--<script>$(window).on('beforeunload',function(){
+        $(window).scrollTop(0);
+    }); </script>-->
+    <!--when reloading show from the beginning of the page(отображать сначала страницы после перезагрузки сайта-->
+    <!-- <script>window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }</script> -->
+    <!--<script>window.onload = function(){
+        document.body.scrollTop = 0;
+    }</script>-->
+    <!-- Yandex.Metrika counter -->
+    <!-- <script type="text/javascript" >
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter50454742 = new Ya.Metrika2({
+                        id:50454742,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/tag.js";
+
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks2");
+    </script> -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126263446-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-126263446-1');
+    </script>
+
+    <noscript><div><img src="https://mc.yandex.ru/watch/50454742" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+<header>
+      
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar wow bounceInUp slow">
+      
+      <div class="container">
+        <a href="" class="navbar-brand"><strong>Home</strong></a>
+
+        <button class="navbar-toggler" style="background-color: #666666" type="button" data-toggle="collapse" data-target="#navbarContent"
+        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle Navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarContent">
+          <ul class="navbar-nav mr-auto ">
+            <li class="nav-item ">
+              <a href="#news" class="nav-link">News</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#gallery" class="nav-link">Gallery</a>
+            </li>
+            <li class="nav-item ">
+              <a href="#contactToUs" class="nav-link">Contacts</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-github"> GitFuckingHub</i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-gitlab"> GitLab</i>
+              </a>
+            </li><li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-youtube"> YouTube</i>
+              </a>
+            </li><li class="nav-item">
+              <a href="" class="nav-link">
+                <i class="fa fa-vk"> Vkontakte</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="intro" class="view">
+        <div class="mask rgba-black-strong">
+            <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+                <div class="row d-flex justify-content-center text-center">
+                    <div class="col-md-12">
+                        <h1 class="display-4 font-weight-bold white-text pt-5 mb-2 wow bounceInLeft slow">
+                            First Material
+                        </h1>
+                        <hr class="hr-light wow bounceInRight slow">
+                        <h4 class="white-text my-4 wow bounceInRight slow">
+                            Some text
+                        </h4>
+                        <button class="btn btn-outline-white waves-effect waves-light wow bounceInRight slow" onclick="yaCounter50454742.reachGoal('readmore-btn'); return true;">Read more <i class="fa fa-book"></i></button>
+                        </hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+
+<main>
+    <hr id="news" class="my-5">
+    
+    <div class="container">
+
+      <section class="mt-5 wow bounceInLeft slow">  <!--1-->
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <img src="img/mac1.jpg" alt="" class="img-fluid hoverable">
+          </div>
+          <div class="col-md-6 md-4">
+            <h3 class="h3-responsive font-weight-bold mb-3">News</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eum in, asperiores!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, incidunt.</p>
+            <hr>
+            <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor rerum, esse qui maiores nisi quis dolores?</p>
+            <a href="" class="btn btn-elegant btn-md">Read more <i class="fa fa-book ml-1"></i></a>
+            <a href="morenews.html" class="btn btn-elegant btn-md">More news <i class="fa fa-image ml-1"></i></a>
+
+          </div>
+        </div>
+      </section> <!--1-->
+
+      <hr id="aboutProduction" class="my-5">
+
+      <section class="wow bounceInRight slow"> <!--2-->
+          <h3 class="h3-responsive font-weight-bold my-5 text-center">About production</h3>
+          <div class="row flex-wrap">
+              <div class="col-lg-6 col-md-12 px-4">
+
+                  <div class="row">
+                      <div class="col-1 mr-3">
+                          <i class="fa fa-book fa-2x elegant-text"></i>
+                      </div>
+                      <div class="col10">
+                          <h5 class="feature-title">Material design</h5>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tenetur, quod tempore, nam quas voluptas.</p>
+                      </div>
+                  </div>
+                  <div style="height: 30px;"></div>
+
+                  <div class="row">
+                      <div class="col-1 mr-3">
+                          <i class="fa fa-graduation-cap fa-2x elegant-text"></i>
+                      </div>
+                      <div class="col10">
+                          <h5 class="feature-title">Web Blog</h5>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tenetur, quod tempore, nam quas voluptas.</p>
+                      </div>
+                  </div>
+                  <div style="height: 30px;"></div>
+
+                  <div class="row">
+                      <div class="col-1 mr-3">
+                          <i class="fa fa-code fa-2x elegant-text"></i>
+                      </div>
+                      <div class="col10">
+                          <h5 class="feature-title">Bootstrap</h5>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus tenetur, quod tempore, nam quas voluptas.</p>
+
+                      </div>
+                  </div>
+                  <div style="height: 30px;"></div>
+
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                  <p class="h5 text-center mb-4">Apple</p>
+                  <div class="embed-responsive embed-responsive-16by9 hoverable">
+                      <iframe src="https://www.youtube.com/embed/TJ1SDXbij8Y" frameborder="0" class="embed-responsive-item"
+                              allowfullscreen></iframe>
+                  </div>
+              </div>
+
+          </div>
+      </section>   <!--2-->
+
+
+      <hr class="my-5" id="product">
+
+      <section class="wow bounceInLeft slow"> <!--3-->
+
+
+          <h2 class="h3-responsive font-weight-bold my-5 text-center">Product</h2>
+
+          <div class="row features-small mb-5 mt-3"> <!--3-->
+              <div class="col-md-4">
+                  <div class="row">
+                      <div class="col-2"><i class="fa fa-check-circle elegant-text fa-2x"></i></div>
+                      <div class="col-10">
+                          <h6 class="feature-title">Lorem ipsum dolor sit amet.</h6>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ducimus.</p>
+                      </div>
+                  </div>
+
+                  <div style="height: 15px;"></div>
+
+                  <div class="row">
+                      <div class="col-2"><i class="fa fa-check-circle elegant-text fa-2x"></i></div>
+                      <div class="col-10">
+                          <h6 class="feature-title">Lorem ipsum dolor sit amet.</h6>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ducimus.</p>
+                      </div>
+                  </div>
+
+                  <div style="height: 15px;"></div>
+
+                  <div class="row">
+                      <div class="col-2"><i class="fa fa-check-circle elegant-text fa-2x"></i></div>
+                      <div class="col-10">
+                          <h6 class="feature-title">Lorem ipsum dolor sit amet.</h6>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ducimus.</p>
+                      </div>
+                  </div>
+
+                  <div style="height: 15px;"></div>
+
+                  <div class="row">
+                      <div class="col-2"><i class="fa fa-check-circle elegant-text fa-2x"></i></div>
+                      <div class="col-10">
+                          <h6 class="feature-title">Lorem ipsum dolor sit amet.</h6>
+                          <p class="grey-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, ducimus.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="com-md-4 flex-center">
+                  <img src="https://htstatic.imgsmail.ru/torg_pic/20/450x450/model/74857ee4485cd50f18d4872fd3aa2323?src=14553539%2F1.jpg&version=17&hash=a3c11cc129f5ee656a3056c50b58c7b7" alt="" class="img-fluid z-depth-0">
+              </div>
+
+          </div>
+
+      </section>  <!--3-->
+
+
+      <hr class="ny-5" id="ourTeam">
+
+      <section class="team-section text-center wow bounceInRight slow mb-5"> <!--4 our team-->
+      <h3 class="h3-responsive font-weight-bold my-5">Our team</h3>
+      <p class="grey-text w-responsive mx-auto mb-5">Lorem ipsum dolor sit amet.</p>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="avatar mx-4">
+            <img src="img/team01.jpg" alt="" class="rounded img-fluid hoverable" >
+            <h4 class="font-weight-bold dark-grey-text my-4">Ivan</h4>
+            <h6 class="text-uppercase grey-text mb-3">Project manager</h6>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="avatar mx-4">
+            <img src="img/team02.jpg" alt="" class="rounded img-fluid hoverable">
+            <h4 class="font-weight-bold dark-grey-text my-4">Jack</h4>
+            <h6 class="text-uppercase grey-text mb-3">Front-end developer</h6>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="avatar mx-4">
+            <img src="img/team03.jpg" alt="" class="rounded img-fluid hoverable">
+            <h4 class="font-weight-bold dark-grey-text my-4">Nick</h4>
+            <h6 class="text-uppercase grey-text mb-3">Back-end developer</h6>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-facebook"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-twitter"></i>
+            </a>
+            <a href="" class="btn-floating btn-elegant mx-1 mb-0 btn-fb hoverable" type="button" style="width: 35px;">
+              <i class="fa fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div><!--OurTeam-->
+  </section> <!--4 our team-->
+        
+
+      <hr class="my-5" id="solutions">
+        
+      <section class="wow bounceInLeft slow"> <!--5-->
+          <h2 class="h3-responsive font-weight-bold my-5 text-center">Solutions</h2>
+          <div class="row features-small mt-5">
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-firefox fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-level-up fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-comments-o fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-code fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-cubes fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-question fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-th fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-xl-3 col-lg-6">
+                  <div class="row">
+                      <div class="col-2">
+                          <i class="fa fa-file-code-o fa-2x mb-1 elegant-text"></i>
+                      </div>
+                      <div class="col-10 mb-2 pl-3">
+                          <h5 class="feature-title font-bolt mb-1">Lorem ipsum dolor.</h5>
+                          <p class="grey-text mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, laboriosam.</p>
+                      </div>
+                  </div>
+              </div>
+
+
+
+          </div>
+          
+      </section> <!--5-->
+
+        <hr class="my-5"  id="best-features">
+
+        <section class="text-center wow bounceInRight slow mb-5"> <!--6-->
+            <h2 class="h3-responsive font-weight-bold my-5">Best Features</h2>
+            <div class="row d-flex justify-content-center mb-4">
+                <div class="col-md-8">
+                    <p class="grey-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque eius libero beatae mollitia et, doloribus repudiandae nemo minima debitis repellendus.
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-md-4 mb-5">
+                    <i class="fa fa-archive fa-4x grey-text"></i>
+                    <h4 class="my-4 font-weight-bold">Archive</h4>
+                    <p class="grey-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam quis nostrum ducimus vitae quos optio nihil sit, laudantium, eos.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <i class="fa fa-amazon fa-4x grey-text"></i>
+                    <h4 class="my-4 font-weight-bold">Amazon</h4>
+                    <p class="grey-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam quis nostrum ducimus vitae quos optio nihil sit, laudantium, eos.
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-5">
+                    <i class="fa fa-server fa-4x grey-text"></i>
+                    <h4 class="my-4 font-weight-bold">Server</h4>
+                    <p class="grey-text">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus veniam quis nostrum ducimus vitae quos optio nihil sit, laudantium, eos.
+                    </p>
+                </div>
+
+            </div>
+        </section> <!--6-->
+
+        <hr class="my-5" id="gallery">
+
+        <section class="wow bounceInLeft slow mb-5"> <!--7-->
+            <h2 class="h3-responsive font-weight-bold my-5 text-center">Gallery</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="1" class=""></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="2" class=""></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="3" class=""></li>
+                            <li data-target="#carousel-example-1z" data-slide-to="4" class=""></li>
+                        </ol>
+
+                        <div class="carousel-inner z-depth-5" role="listbox">
+                            <div class="carousel-item active">
+                                <img src="img/mac6.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mac7.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mac8.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mac5.jpg" alt="" class="d-block w-100">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/mac10.jpg" alt="" class="d-block w-100">
+                            </div>
+                        </div>
+                        <a href="#carousel-example-1z" class="carousel-control-prev" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </a>
+                        <a href="#carousel-example-1z" class="carousel-control-next" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="mb-3">
+                        <strong>Title</strong>
+                    </h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eligendi officiis illum cumque corporis quidem sequi, nobis deleniti!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eligendi officiis illum cumque corporis quidem sequi, nobis deleniti!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eligendi officiis illum cumque corporis quidem sequi, nobis deleniti!</p>
+                    <p>by <a> <strong>John Doe</strong></a>, 17/09/2018 </p>
+                    <a class="btn btn-black btn-md waves-effect waves-light">Read more</a>
+                </div>
+            </div>
+        </section> <!--7-->
+
+        <hr class="my-5" id="contactToUs">
+
+        <section class="wow bounceInRight slow"> <!--8-->
+            <h2 class="h3-responsive font-weight-bold my-5 text-center">Contacts</h2>
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div style="height: 65px;"></div>
+
+                    <div class="col-lg-4 col-md-12 mb-3">
+                        <p><i class="fa fa-map fa-1x mr-2 grey-text"></i>NeverLand</p>
+                    </div>
+
+                    <div style="height: 15px;"></div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Never time</p>
+                    </div>
+
+                    <div style="height: 15px;"></div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <p><i class="fa fa-envelope fa-1x mr-2 grey-text"></i>no@where.io</p>
+                    </div>
+
+                    <div style="height: 15px;"></div>
+
+                    <div class="col-lg-4 col-md-6 mb-3">
+                        <p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+* *** *** **</p>
+                    </div>
+
+
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <div id="map-container" class="hoverable" style="height: 400px"></div>
+                </div>
+            </div>
+        </section> <!--8-->
+
+        <hr class="my-5" id="writeToUs">
+
+        <section> <!--9-->
+
+            <div class="">
+                <div class="mask  d-flex justify-content-center align-items-center">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 mb-4 black-text wow bounceInLeft slow  text-center text-md-left">
+                                <h2 class="display-4 h3-responsive font-weight-bold my-4">Lorem ipsum dolor sit amet</h2>
+                                <hr class="hr-light">
+                                <p><strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut unde impedit rem!</strong></p>
+                                <p class="mb-4 d-none d-md-block">
+                                    <strong>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis laudantium iste cupiditate.</strong>
+                                </p>
+                                <a href="" class="btn btn-elegant btn-lg"><i class="fa fa-sticky-note ml-auto">  Read more</i></a>
+                            </div>
+                            <div class="col-md-6 col-xl-5 mb-4">
+                                <div class="card wow bounceInRight slow">
+                                    <div class="card-body">
+                                        <form action="">
+                                            <h3 class="h3-responsive font-weight-bold text-center">Write to us:</h3>
+                                            <hr>
+                                            <div class="md-form">
+                                                <i class="fa fa-user prefix grey-text"></i>
+                                                <input type="text" class="form-control" id="form3">
+                                                <label for="form3">You name</label>
+                                            </div>
+                                            <div class="md-form">
+                                                <i class="fa fa-envelope prefix grey-text"></i>
+                                                <input type="text" class="form-control" id="form2">
+                                                <label for="form2">You name</label>
+                                            </div>
+                                            <div class="md-form">
+                                                <i class="fa fa-pencil prefix grey-text"></i>
+                                                <textarea type="text" class="md-textarea" id="form4"></textarea>
+                                                <label for="form4">You message</label>
+                                            </div>
+
+                                            <div class="text-center">
+                                                <button class="btn btn-elegant">Send</button>
+                                                <hr>
+                                                <fieldset class="form-check">
+                                                    <input type="checkbox" class="form-check-input" id="checkbox1">
+                                                    <label for="" class="form-check-label dark-grey-text">Subscribe me to the newsletter</label>
+                                                </fieldset>
+                                            </div>
+
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section> <!--9-->
+
+        <hr class="my-5">
+      
+   
+
+    </div>
+</main>
+
+<footer class="page-footer text-center font-small mt-4">
+    <div class="pt-4">
+        <a href="" class="btn btn-elegant wow bounceInLeft slow" role="button">Read more <i class="fa fa-download ml-2"></i></a>
+        <a href="" class="btn btn-elegant wow bounceInRight slow" role="button">News <i class="fa fa-graduation-cap ml-2"></i></a>
+    </div>
+    <hr class="my-4">
+    <div class="pd-4">
+        <a href="" class="i fa fa-facebook mr-3"></a>
+        <a href="" class="i fa fa-twitter mr-3"></a>
+        <a href="" class="i fa fa-youtube mr-3"></a>
+        <a href="" class="i fa fa-google mr-3"></a>
+        <a href="" class="i fa fa-google-plus mr-3"></a>
+        <a href="" class="i fa fa-pinterest mr-3"></a>
+        <a href="" class="i fa fa-github mr-3"></a>
+        <a href="" class="i fa fa-gitlab mr-3"></a>
+        <a href="" class="i fa fa-dribbble mr-3"></a>
+        <a href="" class="i fa fa-codepen mr-3"></a>
+    </div>
+    <div class="footer-copyright-py-3">
+        2018 Web blog
+    </div>
+
+
+</footer>
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- подключение анимаций (fadeIn или другие)-->
+    <script> new WOW().init();</script>
+<!--GOOGLE MAPS-->
+<script src="https://maps.google.com/maps/api/js?"></script>
+
+<script>
+    // Regular map
+    function regular_map() {
+        var var_location = new google.maps.LatLng(51.4663285, -0.1890868);
+
+        var var_mapoptions = {
+            center: var_location,
+            zoom: 17.76
+        };
+
+        var var_map = new google.maps.Map(document.getElementById("map-container"),
+            var_mapoptions);
+
+        var var_marker = new google.maps.Marker({
+            position: var_location,
+            map: var_map,
+            title: "NeverLand"
+        });
+    }
+
+    // Initialize maps
+    google.maps.event.addDomListener(window, 'load', regular_map);
+</script>
+</body>
+
+</html>
