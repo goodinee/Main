@@ -1,0 +1,267 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  box-sizing: border-box
+}
+
+h2, p {
+  margin: 0;
+  padding: 0;
+}
+.grid{
+  display: grid;
+  grid-template-areas: "a a a a a a b b b"
+                        "c c c c d d d d d"
+                        "c c c c e e e e e"
+                        "f f f g g g g g g";
+}
+.title-mid-white {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 66px;
+  letter-spacing: 1.35px;
+}
+
+.title-mid-black {
+  color: #262f32;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 66px;
+  letter-spacing: 1.35px;
+}
+
+.title-bottom {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 300;
+  line-height: 66px;
+  letter-spacing: 1.35px;
+}
+
+.text-btwo {
+  font-size: 40px;
+  letter-spacing: 1.37px;
+  color: #262f32;
+}
+
+.text-btwo-one {
+  font-weight: 300;
+}
+
+.text-btwo-two {
+  font-weight: 700;
+}
+
+.text-btwo-three {
+  font-weight: 900;
+}
+
+.text-bthree {
+  font-weight: 900;
+}
+
+.text-four {
+  font-weight: 900;
+}
+
+.text-bottom-upper {
+  color: #ffffff;
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 1.26px;
+}
+
+.text-bottom-lower {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 66px;
+  letter-spacing: 0.5px;
+}
+
+.par-main {
+  color: #262f32;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.62px;
+}
+
+.par-mid {
+  opacity: 0.88;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.47px;
+}
+
+.par-mid-black {
+  color: #262f32;
+}
+
+.par-mid-white4 {
+  opacity: 0.7;
+}
+
+a, input, textarea {
+  font-size: 17px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  display: block;
+  max-width: 210px;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.form {
+  max-width: 620px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.form input, .form textarea {
+  background-color: transparent;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 12px;
+  padding: 10px 15px;
+}
+
+.form input::-webkit-input-placeholder, .form textarea::-webkit-input-placeholder {
+  color: #fff;
+}
+
+.form input:-ms-input-placeholder, .form textarea:-ms-input-placeholder {
+  color: #fff;
+}
+
+.form input::-ms-input-placeholder, .form textarea::-ms-input-placeholder {
+  color: #fff;
+}
+
+.form input::placeholder, .form textarea::placeholder {
+  color: #fff;
+}
+
+.form input {
+  width: calc(48% - 30px);
+}
+
+.form textarea {
+  width: 100%;
+  min-height: 124px;
+}
+
+.grid-item {
+  padding: 60px 55px 70px 55px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.grid-item-bg {
+  background-image: url(img/block1.png);
+  grid-area: a;
+}
+
+.grid-item-block2 {
+  background-color: #f3f3f3;
+  grid-area: b;
+}
+
+.grid-item-block3 {
+  background-image: url(img/block3.png);
+  grid-area: c;
+}
+
+.grid-item-block4 {
+  background-image: url(img/block4.png);
+  grid-area: d;
+}
+
+.grid-item-block5 {
+  background-image: url(img/block5.png);
+  grid-area: e;
+}
+
+.grid-item-block6 {
+  background-image: url(img/block6.png);
+  grid-area: f;
+}
+
+.grid-item-block7 {
+  background-image: url(img/block7.png);
+  grid-area: g;
+}
+
+.grid-item-blue {
+  margin-bottom: 70px;
+}
+
+button {
+  display: block;
+  background-image: url(img/menu-btn.svg);
+  width: 33px;
+  height: 33px;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 64px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.list > li > a {
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 45px;
+  display: block;
+  border: none;
+}
+
+.list > li {
+  margin-right: 10px;
+}
+
+.list-fb {
+  background-image: url(img/fb.svg);
+}
+
+.list-dr {
+  background-image: url(img/dr.svg);
+}
+
+.list-tw {
+  background-image: url(img/tw.svg);
+}
+
+.logo {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background-image: url(img/logo.svg);
+  margin-bottom: 25px;
+}
+/*# sourceMappingURL=main.css.map */

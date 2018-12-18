@@ -1,37 +1,70 @@
 body
-  margin-top: 40px
+  margin-top: 15px
   position: relative
-  min-height: 300vh
   font-family: sans-serif
-  background-color: #00A876
-a
-  &:hover
-    color: #ffa600
-    text-decoration: none
+
+
+
+.dark-bg
+  position: relative
+  z-index: 1
+  &::before /* ЗАТЕМНЕНИЕ ФОНОВОГО ИЗОБРАЖЕНИЯ */
+    content: ''
+    display: block
+    position: absolute
+    right: 0
+    top: 0
+    width: 100%
+    height: 100%
+    background-color: rgba(0, 0, 0, 0.4)
+    z-index: 2  
+.header, .navbar, .footer
+  z-index: 4
+
+
+
 .navbar
   width: 100%
   height: 35px
   top: 0
   letter-spacing: 4px
   font-size: 27px
-  background-color: #aeaeae
+  background-color: #4711AE
   position: fixed
   display: flex
   justify-content: space-between
   align-items: center
-  &-btn
-    color: #ffffff
-  &-social_icon
 
+
+
+.header
+  position: absolute
+  padding-top: 5%
+  padding-left: 7%
+  z-index: 3
+
+
+.content
+  background: #373737 url(/img/bg.png) center no-repeat
+  background-size: cover
+  min-height: 100vh
+  &-links
+    font-size: 50px
       
 
+
+a
+  color: #fff
+  &:hover
+    color: #ffa600
+    text-decoration: none
 .footer
   position: absolute
   bottom: 0
   width: 100%
   height: 150px
-  background: #aeaeae
-  margin-bottom: -20px
+  background: #4711AE
+  margin-bottom: -130px
   display: flex
   justify-content: center
   align-items: center
